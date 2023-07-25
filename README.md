@@ -3,9 +3,10 @@ YOLOV4를 활용하여, 보도 블록을 Real-time 탐지
 
 
 ## Preprocess
-1. 파일 이름: json 형식의 폴리건 라벨링을 mat 형식의 바운딩 박스 라벨링으로 변환
-2. preprocessData(data, size): 사진과 바운딩 박스를 모델에 맞는 크기로 변환
-3. 경계상자의 값 조정
+1. <전처리 파일 이름>: json 형식의 폴리건 라벨링을 mat 형식의 바운딩 박스 라벨링으로 변환
+2. <전처리 파일 이름>: 경계상자의 값 조정
+3. <>내 사용자 지정 함수 preprocessData(data, size): 사진과 바운딩 박스를 모델에 맞는 크기로 변환
+
 
 
 ## Model Training 
