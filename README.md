@@ -2,10 +2,14 @@
 YOLOV4를 활용하여, 보도 블록을 Real-time 탐지 
 
 
+
+
 ## Preprocess
 1. <전처리 파일 이름>: json 형식의 폴리건 라벨링을 mat 형식의 바운딩 박스 라벨링으로 변환
 2. <전처리 파일 이름>: 경계상자의 값 조정
 3. <>내 사용자 지정 함수 preprocessData(data, size): 사진과 바운딩 박스를 모델에 맞는 크기로 변환
+
+
 
 
 
@@ -18,9 +22,13 @@ YOLOV4를 활용하여, 보도 블록을 Real-time 탐지
    <detection 되는 사진 넣을 예정>
 
 
+
+
 ## Model evaluation
 매트랩 내장 함수인 evaluateDetectionPrecision을 활용하여 test data set에 대한 정확도 검출
 <여기도 precision사진 넣을 예정>
+
+
 
 
 ## Real-time Detection with WebCam
@@ -31,8 +39,12 @@ YOLOV4를 활용하여, 보도 블록을 Real-time 탐지
 5. bbox 및 정확도 표시 
 
 
+
+
 ## 활용 방법
 <가중치 파일 이름>을 다운 받고, camera 파일을 실행하세요. 실시간으로 보도블록이 바운딩 박스와 함께 표시됩니다.
+
+
 
 
 ##Customizing 
@@ -41,8 +53,11 @@ YOLOV4를 활용하여, 보도 블록을 Real-time 탐지
  해당 변수들을 수정하세요.
 
 
+
+
 ## WEB Demo
 유튜브 링크
+
 
 
 ## Tools
